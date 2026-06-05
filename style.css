@@ -1,0 +1,46 @@
+
+.gg {
+    width: 200px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.moveinlinecontainer {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.moveinlinecontainer img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.dots-container {
+    display: flex;
+    gap: 8px;
+    margin: 15px 0;
+}
+
+
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: #ccc;
+    border-radius: 50%;
+}
+
+
+
+.dot.active {
+    background-color: #670b8b; 
+    transform: scale(1.1);
+}
+
+
+
+
